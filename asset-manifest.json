@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AramOsipyan.github.io/static/css/main.db22b371.chunk.css",
-    "main.js": "/AramOsipyan.github.io/static/js/main.53d5a7ff.chunk.js",
-    "main.js.map": "/AramOsipyan.github.io/static/js/main.53d5a7ff.chunk.js.map",
+    "main.js": "/AramOsipyan.github.io/static/js/main.f875620c.chunk.js",
+    "main.js.map": "/AramOsipyan.github.io/static/js/main.f875620c.chunk.js.map",
     "runtime-main.js": "/AramOsipyan.github.io/static/js/runtime-main.1ccc54df.js",
     "runtime-main.js.map": "/AramOsipyan.github.io/static/js/runtime-main.1ccc54df.js.map",
     "static/css/2.12638096.chunk.css": "/AramOsipyan.github.io/static/css/2.12638096.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.12638096.chunk.css",
     "static/js/2.ca1793e6.chunk.js",
     "static/css/main.db22b371.chunk.css",
-    "static/js/main.53d5a7ff.chunk.js"
+    "static/js/main.f875620c.chunk.js"
   ]
 }

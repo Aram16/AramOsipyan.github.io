@@ -1,5 +1,5 @@
 import ReactDom from 'react-dom';
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Route, Switch, BrowserRouter, HashRouter } from 'react-router-dom';
 import ContactsPage from './pages/contacts/ContactsPage';
 import AllNewsPage from './pages/allnews/AllnewsPage';
 import WelcomePage from './pages/welcome/WelcomePage';
@@ -16,10 +16,11 @@ import './index.css';
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div>
-                <Route exact path="/" component={WelcomePage} />
-                <Route exact path="/aboutUs" component={AboutUsPage} />
+              <Switch>
+                <Route exact  path="/" component={WelcomePage} />
+                <Route exact  path="/aboutUs" component={AboutUsPage} />
                 <Route exact path="/allNews" component={AllNewsPage} />
                 <Route exact path="/events" component={EventsPage} />
                 <Route exact path="/courses" component={CoursPage} />
@@ -28,8 +29,10 @@ const App = () => {
                 <Route exact path="/mediaLaboratory" component={MediaPage} />/
                 <Route exact path="/programmingLaboratory" component={ProgrammingPage} />
                 <Route exact path="/enginnerLaboratory" component={EnginnerPage} />
+              </Switch>
+
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 

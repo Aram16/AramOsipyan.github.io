@@ -9,7 +9,11 @@ nav {
 .navv {
   z-index: 10;
 }
-
+@media (min-width: 600px) {
+  .checkbox {
+    display: none;
+  }
+}
 .navv > .nav-header {
   display: inline;
 } 

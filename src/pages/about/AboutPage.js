@@ -14,7 +14,7 @@ const AboutPage = () => {
     i18n.changeLanguage(name);
   };
   return (
-    <div id="about">
+    <div id="abooot">
       <Navbar id="nav-about" />
       <h1 className="about-h1">{t("About")}</h1>
       <TextField text={shotText} className="about-p" />
